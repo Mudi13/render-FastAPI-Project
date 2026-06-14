@@ -2,8 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/home")
+@app.get("/")
 def home():
     return{
-        "message": "Good Day!!!!!!"
+        "message": "Hi Mudittttt!!!!!!!!"
     }
